@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-image: url('./images/bg2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 42px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+            font-size: 22px;
+        }
+
+        .nav-link {
+            color: #fff;
+            margin-right: 20px;
+        }
+
+        .content {
+            margin-top: 50px;
+            text-align: justify;
+            color: #003739;
+            margin-left: 675px;
+            font-size: 17px;
+        }
+
+        .content-head {
+            margin-top: 30px;
+            text-align: center;
+            color: #003739;
+            /* margin-left: 300px; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <b><a class="navbar-brand" href="#">Road Insight</a></b>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./table.html">Tables</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./graphs.html">Graphs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./maps.html">Maps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./analysis.html">Analysis</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div>
+        <h2 class="content-head">Exploratory data analysis (EDA) on UK Road Accidents.</h2>
+    </div>
+    <div class="content pr-5">
+        <p>
+            Exploratory data analysis (EDA) has been widely used in research with literature therefore employing
+            different
+            graphical representations and statistical analyses, to perform preliminary investigations on datasets.
+            EDA can reveal hidden patterns in a dataset that can play an important role during the prediction phase.
+            In machine learning (ML) EDA is significant as it helps to establish sound assumptions and answer questions
+            thereby ensuring the best results are obtained during the model design phase.
+            <br>
+            Road accidents are the major cause of deaths and injuries in India. Raw datasets of road accidents are
+            important as they can greatly help transport planners and researchers to uncover trends and hidden patterns.
+            These road accidents posses some varying and hidden characteristics which require EDA methods to gain more
+            comprehensive insights and reveal the important characteristics. Graphical representation can be beneficial
+            to the transport planners and the engineers to easily examine the raw dataset before any model construction
+            is undertaken.
+            <br>
+        </p>
+        <h5> Our projects major objectives are:</h5>
+        <ul>
+            <li>To graphically represent areas with highest number of accidents.</li>
+            <li> To visually display the accident prone areas on map based on latitudes and longitudes.</li>
+            <li> To study the causes of accidents and suggest corrective measures at potential location.</li>
+            <li> To analyse the causes of accidents in those areas.</li>
+            <li>To show the safest route map on googlemaps using the previous results.</li>
+        </ul>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
